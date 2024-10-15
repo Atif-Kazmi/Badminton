@@ -107,7 +107,7 @@ def main_game():
 
         # Update display
         pygame.display.flip()
-        clock.tick(60)
+        clock.tick(30)
 
     pygame.quit()
 
