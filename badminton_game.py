@@ -1,5 +1,9 @@
+from streamlit import caching
+
+caching.clear_cache()
 import pygame
 import random
+
 
 # Initialize Pygame
 pygame.init()
